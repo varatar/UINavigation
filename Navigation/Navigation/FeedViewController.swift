@@ -13,15 +13,11 @@ class FeedViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    struct Post {
-        var title: String
-    }
     
     var myPost = Post(title: "Нужна реклама?")
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "testing" {
+        if segue.identifier == "postDetails" {
             if let vc = segue.destination as? PostViewController {
                 vc.post = myPost
             }

@@ -30,7 +30,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="u5C-yN-ljF" kind="push" identifier="testing" id="n63-Vz-iFf"/>
+                                    <segue destination="u5C-yN-ljF" kind="push" identifier="postDetails" id="n63-Vz-iFf"/>
                                 </connections>
                             </button>
                         </subviews>
